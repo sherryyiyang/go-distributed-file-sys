@@ -33,6 +33,7 @@ func makeServer(listenAddr string, nodes ...string) *FileServer {
 	return s
 }
 
+
 func main() {
 	s1 := makeServer(":3000", "")
 	s2 := makeServer(":7000", "")
